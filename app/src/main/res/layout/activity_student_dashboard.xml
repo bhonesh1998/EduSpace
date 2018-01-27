@@ -192,62 +192,71 @@
         android:id="@+id/image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignEnd="@+id/disname"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/disname"
-        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/textView10"
+        android:layout_toRightOf="@+id/textView10"
         app:srcCompat="@drawable/user" />
 
     <Button
         android:id="@+id/start_quiz"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+
         android:layout_alignParentBottom="true"
-
-
-        android:layout_marginLeft="25dp"
-        android:layout_marginStart="25dp"
-        android:layout_toEndOf="@+id/mark"
-        android:layout_toRightOf="@+id/mark"
+        android:layout_toEndOf="@+id/textView12"
+        android:layout_toRightOf="@+id/textView12"
+        android:background="#F5B7B1"
         android:text="Quiz"
         android:textColor="#ffffff"
-        android:background="#F5B7B1"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/mark"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
 
 
-        android:layout_alignTop="@+id/start_quiz"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_toLeftOf="@+id/disyear"
-        android:layout_toStartOf="@+id/disyear"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView11"
+
+        android:layout_toStartOf="@+id/textView11"
+        android:background="#A3E4D7"
+
         android:text="mark_attandance"
         android:textColor="#ffffff"
-        android:background="#A3E4D7"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/download"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/start_quiz"
-        android:layout_marginBottom="20dp"
-        android:layout_toEndOf="@+id/start_quiz"
-        android:layout_toRightOf="@+id/start_quiz"
-        android:text="assign" />
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textView13"
+
+        android:layout_toRightOf="@+id/textView13"
+        android:background="#726df7"
+
+        android:text="assign"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/chatroom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/disbatch"
-        android:text="chatroom" />
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="#e2e4a3"
+        android:text="chatroom"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

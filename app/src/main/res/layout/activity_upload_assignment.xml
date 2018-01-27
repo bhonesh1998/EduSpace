@@ -37,23 +37,5 @@
             android:layout_gravity="center_horizontal"
             android:visibility="gone" />
 
-        <TextView
-            android:id="@+id/textViewStatus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="No file selected"
-            android:textAlignment="center"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
-
-        <TextView
-            android:id="@+id/textViewUploads"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="View Uploads"
-            android:textAlignment="center"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textColor="@color/colorPrimaryDark" />
-
     </LinearLayout>
 </RelativeLayout>

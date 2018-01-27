@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-android:background="@drawable/login_back"
+    android:background="@drawable/login_back"
     tools:context="com.example.bhonesh.e_class.login"
     android:orientation="vertical"
     android:gravity="center">

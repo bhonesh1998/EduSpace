@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="#ffbfa0"
     tools:context="com.example.bhonesh.e_class.register"
     android:orientation="vertical"
     android:gravity="center">
@@ -11,10 +11,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:layout_marginBottom="20dp"/>
+        android:text="Discussion Portal Registration"
+        android:textSize="30dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -39,7 +39,9 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:id="@+id/registerButton"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oval_register"
+        />
 
     <TextView
         android:layout_width="match_parent"
