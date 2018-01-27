@@ -47,7 +47,7 @@ public class upload_assignment extends AppCompatActivity {
         mDatabaseReference = FirebaseDatabase.getInstance().getReference("uploads");
 
         //getting the views
-        textViewStatus = (TextView) findViewById(R.id.textViewStatus);
+       // textViewStatus = (TextView) findViewById(R.id.textViewStatus);
         editTextFilename = (EditText) findViewById(R.id.editTextFileName);
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
 

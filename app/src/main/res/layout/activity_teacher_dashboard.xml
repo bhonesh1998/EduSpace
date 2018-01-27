@@ -187,8 +187,8 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="23dp"
         android:layout_toEndOf="@+id/textView14"
@@ -197,24 +197,23 @@
 
     <Button
         android:id="@+id/create_quiz"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="7dp"
         android:layout_toEndOf="@+id/assignment"
         android:layout_toRightOf="@+id/assignment"
-        android:background="#ABEBC6"
+        android:background="#f57358"
         android:text="QUIZ"
         android:textColor="#ffffff"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/attand"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignTop="@+id/sub"
-        android:layout_toEndOf="@+id/sub"
-        android:layout_toRightOf="@+id/sub"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/assignment"
+        android:layout_toStartOf="@+id/assignment"
         android:background="#F9E79F"
         android:text="Attandance"
         android:textColor="#ffffff"
@@ -222,40 +221,38 @@
 
     <Button
         android:id="@+id/sub"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
 
 
-        android:layout_alignBottom="@+id/create_quiz"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/attand"
+        android:layout_toStartOf="@+id/attand"
+        android:background="#F5B7B1"
         android:text="create subject"
         android:textColor="#ffffff"
-        android:background="#F5B7B1"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/assignment"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignTop="@+id/create_quiz"
-        android:layout_toEndOf="@+id/attand"
-        android:layout_toRightOf="@+id/attand"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#b9a3e4"
         android:text="Assignment"
-        android:textColor="#ffffff"
-        android:background="#A3E4D7"
-        android:textStyle="bold"
 
-        />
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/chatroom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/create_quiz"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/create_quiz"
+        android:layout_toRightOf="@+id/create_quiz"
+        android:background="#59ae3d"
         android:text="chatroom" />
 
 
