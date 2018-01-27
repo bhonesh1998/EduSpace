@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fc935f"
+    tools:context="com.example.bhonesh.e_class.result">
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="92dp"
+        android:text="Marks"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_below="@+id/textView23"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="81dp"
+        android:textSize="30sp"
+        android:text="Total"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/textView25"
+        android:layout_marginTop="58dp"
+        android:textSize="30sp"
+        android:text="Obtain"
+
+
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="BACK"
+        android:background="#2ECC71"
+
+        android:textColor="#FDFEFE"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView25"
+        android:layout_marginLeft="76dp"
+        android:layout_marginStart="76dp"
+        android:layout_toEndOf="@+id/textView26"
+        android:layout_toRightOf="@+id/textView26"
+        android:textSize="30sp"
+        android:text="TextView"
+
+        />
+
+    <TextView
+        android:id="@+id/obtain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/total"
+        android:layout_alignStart="@+id/total"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:text="TextView"
+        android:textSize="30sp" />
+</RelativeLayout>

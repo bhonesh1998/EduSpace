@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498DB"
+    tools:context="com.example.bhonesh.e_class.quiz_submit_student">
+
+    <TextView
+        android:id="@+id/questext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:text=""
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:background="#FAD7A0"
+        />
+
+    <Button
+        android:id="@+id/bo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bo1"
+        android:layout_alignRight="@+id/bo1"
+        android:layout_below="@+id/bo1"
+        android:layout_marginTop="20dp"
+        android:background="#FAD7A0"
+        />
+
+    <Button
+        android:id="@+id/bo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bo2"
+        android:layout_alignStart="@+id/bo2"
+        android:layout_below="@+id/bo2"
+        android:layout_marginTop="20dp"
+        android:background="#FAD7A0"
+        />
+
+    <Button
+        android:id="@+id/bo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bo3"
+        android:layout_alignStart="@+id/bo3"
+        android:layout_below="@+id/bo3"
+        android:layout_marginTop="20dp"
+        android:background="#FAD7A0"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+
+
+        android:background="#2ECC71"
+        android:text="next"
+        android:textColor="#FDFEFE"
+        android:textSize="25sp"
+        android:textStyle="italic"
+
+        />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/next"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="Submit"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bo1"
+        android:layout_alignLeft="@+id/next"
+        android:layout_alignStart="@+id/next"
+        android:layout_marginBottom="54dp"
+        android:text="Question"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView24"
+
+        android:layout_alignStart="@+id/textView24"
+        android:layout_below="@+id/questext"
+        android:layout_marginTop="41dp"
+        android:text="Options"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

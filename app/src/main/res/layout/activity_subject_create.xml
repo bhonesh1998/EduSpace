@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51fac8"
+    tools:context="com.example.bhonesh.e_class.subject_create">
+
+    <TextView
+        android:id="@+id/a_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="176dp"
+        android:text="Subject"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/a_name"
+        android:layout_alignStart="@+id/a_name"
+        android:layout_below="@+id/a_name"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="60dp"
+        android:text="Year"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/year"
+        android:layout_alignRight="@+id/year"
+        android:layout_below="@+id/year"
+        android:layout_marginTop="60dp"
+        android:text="Batch"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/a_name"
+        android:layout_alignBottom="@+id/a_name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:ems="10"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/sub"
+        android:layout_alignStart="@+id/sub"
+        android:layout_alignTop="@+id/year"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView17"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_alignLeft="@+id/e2"
+        android:layout_alignStart="@+id/e2"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:background="#2ECC71"
+        android:text="Submit"
+        android:textColor="#FDFEFE"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

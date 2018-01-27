@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bhonesh.e_class">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/eclass"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".student_register">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.student_register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".options">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.options" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".student_dashboard">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.student_dashboard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".teacher_register">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.teacher_register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".teacher_dashboard">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.teacher_dashboard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".create_quiz_teacher">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.create_quiz_teacher" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".quiz_submit_teacher">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.quiz_submit_teacher" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".start_quiz_student">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.start_quiz_student" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".quiz_submit_student"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.quiz_submit_student" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".result">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.result" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".attandance">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.attandance" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".subject_create">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.subject_create" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mark_att">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.mark_att" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".create_assign">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.create_assign" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".upload_assignment">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.upload_assignment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewUploadsActivity">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.ViewUploadsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+        </activity>
+    </application>
+
+</manifest>
