@@ -4,8 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D2B4DE"
+    android:background="@drawable/bulb"
     tools:context="com.example.bhonesh.e_class.create_quiz_teacher">
+
+    <TextView
+        android:id="@+id/a_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Create a Quiz"
+        android:textColor="#D1F2EB"
+
+
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/a_name"
@@ -19,7 +33,7 @@
         android:layout_marginTop="107dp"
         android:text="Quiz-Name"
         android:textSize="20sp"
-        android:textColor="#000000"
+        android:textColor="#FDFEFE"
         android:textStyle="bold"
 
 
@@ -37,7 +51,7 @@
         android:layout_marginTop="60dp"
         android:text="Year"
         android:textSize="20sp"
-        android:textColor="#000000"
+        android:textColor="#FDFEFE"
         android:textStyle="bold"
         />
 
@@ -51,7 +65,7 @@
         android:layout_marginTop="60dp"
         android:text="Batch"
         android:textSize="20sp"
-        android:textColor="#000000"
+        android:textColor="#FDFEFE"
         android:textStyle="bold"
         />
 
@@ -59,15 +73,14 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView17"
-        android:layout_alignStart="@+id/textView17"
-        android:layout_below="@+id/textView17"
-        android:layout_marginTop="60dp"
-        android:text="No of ques"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/e3"
+        android:layout_marginTop="49dp"
+        android:text="No of Ques."
+        android:textColor="#FDFEFE"
         android:textSize="20sp"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <EditText
 
@@ -143,8 +156,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="18dp"
 
-        android:background="#2ECC71"
+        android:background="@drawable/oval_register"
         android:text="Submit"
+
         android:textColor="#FDFEFE"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -159,7 +173,7 @@
         android:layout_marginTop="30dp"
         android:text="Code"
         android:textSize="20sp"
-        android:textColor="#000000"
+        android:textColor="#FDFEFE"
         android:textStyle="bold"
         />
 </RelativeLayout>

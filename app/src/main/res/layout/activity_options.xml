@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E8DAEF"
+    android:background="@drawable/images"
     tools:context="com.example.bhonesh.e_class.options">
 
     <Button
@@ -12,60 +12,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/textView20"
-        android:layout_marginTop="40dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="115dp"
+        android:background="#81e0ff"
         android:text="Student"
         android:textColor="#7D3C98"
-
-        android:textStyle="bold"
         android:textSize="25sp"
-        android:background="#A9DFBF"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/tea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/stu"
-        android:layout_alignStart="@+id/stu"
-        android:layout_below="@+id/textView21"
-        android:layout_marginTop="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#A9DFBF"
         android:text="Teacher"
         android:textColor="#7D3C98"
-        android:textStyle="bold"
         android:textSize="25sp"
-        android:background="#A9DFBF"
-        />
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/stu"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/student" />
 
-        android:layout_alignEnd="@+id/textView21"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/textView21"
-        android:layout_marginTop="115dp"
-        android:text="If you are a student,press here"
-        android:textColor="#2E4053"
-        android:textSize="25sp"
-        android:textStyle="italic"
-
-        />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/stu"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/tea"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
+        app:srcCompat="@drawable/teacher" />
 
-        android:text="If you are a teacher,press here"
-        android:textSize="25sp"
-        android:textStyle="italic"
-        android:textColor="#2E4053"
-
-        />
 </RelativeLayout>

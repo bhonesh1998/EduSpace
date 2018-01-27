@@ -69,14 +69,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="145dp"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/oval_register"
         android:text="Mark attendance"
-        android:background="#2ECC71"
         android:textColor="#FDFEFE"
-        android:textSize="25sp"
-        android:textStyle="bold"
 
-        />
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 
 

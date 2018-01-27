@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#FBFCFC  "
     android:gravity="bottom"
     android:orientation="horizontal">
 
@@ -10,9 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textColorHint="#CFD8DC"
+        android:textColorHint="#000000"
         android:textColor="#CFD8DC"
         android:hint="Write a message..."
+
         android:id="@+id/messageArea"
         android:maxHeight="80dp"
         />
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="4"
         android:padding="4dp"
+        android:background="#2ECC71"
         android:src="@android:drawable/ic_menu_send"
         android:id="@+id/sendButton"/>
 </LinearLayout>

@@ -4,8 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D2B4DE"
+    android:background="@drawable/a"
     tools:context="com.example.bhonesh.e_class.attandance">
+
+    <TextView
+        android:id="@+id/a_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/textView18"
+        android:layout_toRightOf="@+id/textView18"
+        android:text="Attendance"
+        android:textColor="#8E44AD"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/a_name"
@@ -125,15 +140,15 @@
         android:layout_height="wrap_content"
 
         android:layout_above="@+id/close"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:background="#2ECC71"
+        android:layout_alignLeft="@+id/close"
+        android:layout_alignStart="@+id/close"
+        android:background="@drawable/oval_register"
         android:text="Open Portal"
+
+
         android:textColor="#FDFEFE"
         android:textSize="25sp"
-        android:textStyle="bold"
-
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/close"
@@ -143,7 +158,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="18dp"
 
-        android:background="#2ECC71"
+        android:background="@drawable/oval_register"
         android:text="Close Portal"
         android:textColor="#FDFEFE"
         android:textSize="25sp"

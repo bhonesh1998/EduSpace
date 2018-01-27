@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+android:background="@drawable/login_back"
     tools:context="com.example.bhonesh.e_class.login"
     android:orientation="vertical"
     android:gravity="center">
@@ -11,10 +11,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
-        android:layout_marginBottom="20dp"/>
+        android:text="Welcome to Portal"
+        android:textSize="30dp" />
 
     <EditText
         android:layout_width="match_parent"
@@ -23,6 +23,7 @@
         android:inputType="text"
         android:maxLines="1"
         android:hint="enter username"
+        android:textColorHint="#34495E"
         android:layout_marginBottom="10dp"/>
 
     <EditText
@@ -32,21 +33,28 @@
         android:inputType="textPassword"
         android:maxLines="1"
         android:hint="enter password"
+        android:textColorHint="#34495E"
         android:layout_marginBottom="10dp"/>
 
     <Button
+        android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oval_register"
         android:text="Login"
-        android:id="@+id/loginButton"
-        android:layout_marginBottom="20dp"/>
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
 
     <TextView
+        android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Click here to register"
-        android:textSize="20dp"
         android:gravity="center"
-        android:id="@+id/register"/>
+
+
+
+        android:text="Click here to register"
+        android:textSize="20dp" />
 
 </LinearLayout>

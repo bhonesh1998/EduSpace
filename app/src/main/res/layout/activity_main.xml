@@ -4,53 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E8DAEF"
+
+    android:background="@drawable/back"
     tools:context="com.example.bhonesh.e_class.MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-
-        android:layout_above="@+id/editid"
-        android:layout_alignLeft="@+id/editid"
-        android:layout_alignStart="@+id/editid"
-        android:layout_marginBottom="17dp"
-        android:text="Id"
-        android:textSize="20sp"
-        android:textColor="#17202A"
-        android:textStyle="bold"
-
-        />
 
     <EditText
         android:id="@+id/editid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
+        android:layout_above="@+id/sub"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="21dp"
+        android:layout_marginBottom="41dp"
         android:ems="12"
+        android:hint="ID"
+        android:textColorHint="#FBFCFC"
+        android:drawableLeft="@mipmap/ic_launcher_user"
+        android:textColor="#FBFCFC"
         android:inputType="text" />
 
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_above="@+id/sub"
-        android:layout_alignLeft="@+id/sub"
-        android:layout_alignStart="@+id/sub"
-        android:layout_marginBottom="21dp"
-        android:text="Password"
-        android:textSize="20sp"
-        android:textColor="#17202A"
-        android:textStyle="bold"
-
-        />
 
     <EditText
         android:id="@+id/sub"
@@ -62,6 +34,10 @@
         android:layout_alignStart="@+id/editid"
         android:layout_marginBottom="60dp"
         android:ems="12"
+        android:hint="Password"
+        android:textColorHint="#FBFCFC"
+        android:textColor="#FBFCFC"
+        android:drawableLeft="@mipmap/ic_launcher_lock"
         android:inputType="textPassword" />
 
     <Button
@@ -73,9 +49,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="26dp"
         android:text="Sign in"
+
         android:textSize="20sp"
         android:textColor="#FDFEFE"
-        android:background="#2980B9"
+        android:background="@drawable/oval"
+
+
+
         />
 
 
@@ -88,18 +68,21 @@
 
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="41dp"
-        android:background="#27AE60"
-        android:text="Create  an  account"
+        android:background="@drawable/oval_register"
+        android:text="Register"
         android:textColor="#FDFEFE"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+
+
+        />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView4"
+        android:layout_above="@+id/editid"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="49dp"
+        android:layout_marginBottom="34dp"
         app:srcCompat="@drawable/eclass" />
 
 

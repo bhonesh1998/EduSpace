@@ -18,7 +18,7 @@
         android:layout_marginLeft="23dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="107dp"
-        android:text="Assign-name"
+        android:text="Assignment-name"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
