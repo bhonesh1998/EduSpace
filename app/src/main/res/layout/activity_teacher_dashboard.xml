@@ -249,5 +249,14 @@
 
         />
 
+    <Button
+        android:id="@+id/chatroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/create_quiz"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="chatroom" />
+
 
 </RelativeLayout>

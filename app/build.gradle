@@ -35,6 +35,8 @@ dependencies {
 
     compile 'com.google.firebase:firebase-storage:11.8.0'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.android.volley:volley:1.0.0'
+
 
 }
 apply plugin: 'com.google.gms.google-services'

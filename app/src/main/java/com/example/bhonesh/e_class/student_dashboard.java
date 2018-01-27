@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso;
 
 public class student_dashboard extends AppCompatActivity {
 
-    Button start_quiz,mark_a,download;
+    Button start_quiz,mark_a,download,chatroom;
     TextView disname,disyear,disbatch,disid,disdepart,disemail;
     ImageView vi;
     String id,year,department,batch;
@@ -23,12 +23,15 @@ public class student_dashboard extends AppCompatActivity {
 
         download=(Button)findViewById(R.id.download);
 
+        chatroom=(Button)findViewById(R.id.chatroom);
+
         disname=(TextView)findViewById(R.id.disname);
         disbatch=(TextView)findViewById(R.id.disbatch);
         disyear=(TextView)findViewById(R.id.disyear);
         disid=(TextView)findViewById(R.id.disid);
         disdepart=(TextView)findViewById(R.id.disdepart);
         disemail=(TextView)findViewById(R.id.disemail);
+
         mark_a=findViewById(R.id.mark);
 
         vi=(ImageView)findViewById(R.id.image);
@@ -100,6 +103,14 @@ public class student_dashboard extends AppCompatActivity {
             }
         });
 
+        chatroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent("com.example.bhonesh.e_class.login");
+
+                startActivity(i);
+            }
+        });
 
 
     }

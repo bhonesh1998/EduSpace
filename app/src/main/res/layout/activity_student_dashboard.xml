@@ -240,5 +240,14 @@
         android:layout_toRightOf="@+id/start_quiz"
         android:text="assign" />
 
+    <Button
+        android:id="@+id/chatroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/disbatch"
+        android:text="chatroom" />
+
 
 </RelativeLayout>

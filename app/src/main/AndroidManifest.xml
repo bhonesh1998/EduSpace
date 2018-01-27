@@ -132,9 +132,38 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
-
         </activity>
+        <activity android:name=".chat">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.chat" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".register">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".users">
+            <intent-filter>
+                <action android:name="com.example.bhonesh.e_class.users" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

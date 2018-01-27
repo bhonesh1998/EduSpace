@@ -15,14 +15,14 @@ import com.squareup.picasso.Picasso;
 public class teacher_dashboard extends AppCompatActivity {
 
     String department;
-    Button create_quiz,attand,subj,assign;
+    Button create_quiz,attand,subj,assign,chatroom;
     TextView disname,disq,dissubject,disid,disdepart,disemail;
     ImageView vi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teacher_dashboard);
-
+        chatroom=(Button)findViewById(R.id.chatroom);
         subj=(Button)findViewById(R.id.sub);
         assign=findViewById(R.id.assignment);
         create_quiz=(Button)findViewById(R.id.create_quiz);
@@ -33,6 +33,8 @@ public class teacher_dashboard extends AppCompatActivity {
         disid=(TextView)findViewById(R.id.disid);
         disdepart=(TextView)findViewById(R.id.disdepart);
         disemail=(TextView)findViewById(R.id.disemail);
+
+
         //image view
         vi=(ImageView)findViewById(R.id.image);
 
@@ -127,6 +129,14 @@ public class teacher_dashboard extends AppCompatActivity {
         });
 
 
+        chatroom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent("com.example.bhonesh.e_class.login");
+
+                startActivity(i);
+            }
+        });
 
 
     }
